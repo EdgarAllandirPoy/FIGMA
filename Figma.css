@@ -1,6 +1,8 @@
-
+body {
+position: static;
+}
 .container {
-    position: fixed;
+    position: absolute;
     width: 1500px;
     height: 370px;
     background-color: rgb(11, 115, 35);
@@ -8,12 +10,13 @@
 
 .container1 {
     display: flex;
-    position: fixed;
+    position: absolute;
     width: 1500px;
     height: 70px;
     background-color: rgb(165, 27, 8);
 top: 42vh;
 justify-content: space-around;
+
 }
 
 .IMG {
@@ -23,7 +26,7 @@ justify-content: space-around;
     height: 41vh;
     left: 170vh;
 
-    background: url(image\ 3.png);
+    
 }
 
 .IMG1 {
@@ -33,7 +36,7 @@ justify-content: space-around;
     height: 41vh;
     right: 170vh;
 
-    background: url(image\ 3.png);
+   
 }
 h1 {
     color: rgb(255, 255, 255);
@@ -47,6 +50,42 @@ h1 {
     font-size: 40px;
     position: relative;
     top: -30px;
-    
+}
 
+.logo {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+   left: 15%;
+   top: 70%;
+}
+
+.P2 {
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+    position: absolute;
+    left: 30vh;
+}
+
+.IMG2 {
+    position: absolute;
+    width: 10vh;
+    height: 41vh;
+    right: 200vh;
+    top: 100vh;
+}
+
+.container3 {
+    position: absolute;
+    width: 1500px;
+    height: 370px;
+    top: 220vh;
+    background-color:  rgb(165, 27, 8);
+}
+
+.IMG3 {
+    position: absolute;
+    left: 135vh;
+    top: 2vh;
 }
